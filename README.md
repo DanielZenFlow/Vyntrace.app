@@ -15,15 +15,4 @@ Plain HTML, CSS and one small script. No build step, no dependencies.
 
 then open http://localhost:8080.
 
-## Put it on vyntrace.app (GitHub Pages)
-
-1. Push this folder to `DanielZenFlow/Vyntrace.app`, branch `main`.
-2. Repository → Settings → Pages → Source: *Deploy from a branch*, `main` / root. The `CNAME` file already says `vyntrace.app`.
-3. At the domain registrar add four `A` records for `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`, and a `CNAME` record for `www` pointing to `danielzenflow.github.io`.
-4. When Pages shows the domain as verified, tick *Enforce HTTPS*.
-
-Then, in Google Cloud → Google Auth Platform → Branding, enter
-`https://vyntrace.app` as the home page and `https://vyntrace.app/privacy.html` as the privacy policy,
-add `vyntrace.app` under Authorised domains, and press *Publish app* on the Audience page.
-
 Fonts: Figtree and Fraunces, SIL Open Font License (texts in `assets/fonts`).
