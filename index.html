@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vyntrace</title>
+<meta name="description" content="Vyntrace saves your Claude and ChatGPT usage reports in your own browser and shows the month on your iPhone, as a plant.">
+<meta name="theme-color" content="#FBF8F1">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="./"><img src="assets/mark.png" alt=""><span>Vyntrace</span></a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-l="en" aria-pressed="true">EN</button>
+      <button type="button" data-l="zh" aria-pressed="false">中文</button>
+      <button type="button" data-l="da" aria-pressed="false">DA</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="copy">
+        <div class="kicker" data-i="hero.kicker">Claude and ChatGPT · usage</div>
+        <h1 data-i="hero.title">Your AI usage, kept quietly.</h1>
+        <p class="lead" data-i="hero.lead">Vyntrace saves the numbers from Claude Reflect and ChatGPT Analytics in your own browser, then brings the month to your iPhone: one plant, one big figure, a few small pictures.</p>
+        <div class="cta">
+          <a class="btn main" href="#how"><span data-i="hero.chrome">Get the Chrome extension</span></a>
+          <span class="btn quiet"><span data-i="hero.ios">iPhone app</span><small data-i="hero.soon">coming soon</small></span>
+        </div>
+      </div>
+      <img class="plant" src="assets/plants/cyclamen.webp" alt="" width="480" height="720">
+    </div>
+
+    <section class="block" id="how">
+      <h2 data-i="how.title">Three steps, no account</h2>
+      <p class="sub" data-i="how.sub">There is nothing to sign up for. You sign in with your own Google or iCloud, and your data only travels between your own devices and your own drive.</p>
+      <div class="steps">
+        <div class="step"><div class="n">01</div><h3 data-i="s1.t">Save</h3><p data-i="s1.p">The extension keeps the reports exactly as they are in your browser when you open Claude Reflect or ChatGPT Analytics. It does not grow without end: only the newest copies of each month are kept.</p></div>
+        <div class="step"><div class="n">02</div><h3 data-i="s2.t">Send</h3><p data-i="s2.p">Press “Sign in with Google” once, or choose a folder in iCloud Drive. It only writes to its own folder, “Vyntrace Sync”.</p></div>
+        <div class="step"><div class="n">03</div><h3 data-i="s3.t">See</h3><p data-i="s3.p">The iPhone app and widgets read that folder and draw the month. Once the phone has read it, the extension shows “On your iPhone”.</p></div>
+      </div>
+      <div class="plants" aria-hidden="true">
+        <img src="assets/plants/snowdrop.webp" alt="" loading="lazy">
+        <img src="assets/plants/hydrangea.webp" alt="" loading="lazy">
+        <img src="assets/plants/sunflower.webp" alt="" loading="lazy">
+        <img src="assets/plants/fern.webp" alt="" loading="lazy">
+        <img src="assets/plants/cyclamen.webp" alt="" loading="lazy">
+      </div>
+    </section>
+
+    <section class="block">
+      <h2 data-i="own.title">Your data stays yours</h2>
+      <p class="sub" data-i="own.sub">We run no server and cannot see any of your data.</p>
+      <div class="facts">
+        <div><b data-i="f1.k">No account</b><span data-i="f1.v">You never create or sign in to a Vyntrace account.</span></div>
+        <div><b data-i="f2.k">Its own folder only</b><span data-i="f2.v">The Google permission is drive.file: only files Vyntrace created itself.</span></div>
+        <div><b data-i="f3.k">Revoke any time</b><span data-i="f3.v">Remove access under “Third-party access” in your Google Account.</span></div>
+        <div><b data-i="f4.k">Never sold</b><span data-i="f4.v">We do not sell data or use your reports to target ads.</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span><span data-i="foot.copy">© Vyntrace</span> · <span id="year">2026</span></span>
+    <nav><a href="privacy.html" data-i="nav.privacy">Privacy policy</a></nav>
+  </footer>
+</div>
+<script src="site.js"></script>
+</body>
+</html>
